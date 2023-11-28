@@ -1,0 +1,83 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 500px;
+    justify-content: center;
+    background-color: gainsboro;
+    padding: 20px;
+  }
+  .bar-container {
+    display: flex;
+  }
+  .container1,
+  .container2,
+  .container3 {
+    width: 40px;
+    height: 400px;
+    background-color: purple;
+    margin: 8px;
+  }
+  .heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0;
+  }
+  .data1 {
+    height: 80%;
+    background-color: white;
+    animation-name: bar1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  }
+  @keyframes bar1 {
+    0% {
+      height: 100%;
+      background-color: white;
+    }
+    100% {
+      height: 80%;
+      background-color: white;
+    }
+  }
+  .data2 {
+    height: 70%;
+    background-color: white;
+    animation-name: bar2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  }
+  @keyframes bar2 {
+    0% {
+      height: 100%;
+      background-color: white;
+    }
+    100% {
+      height: 70%;
+      background-color: white;
+    }
+  }
+  .data3 {
+    height: 50%;
+    background-color: white;
+    animation-name: bar3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  }
+  @keyframes bar3 {
+    0% {
+      height: 100%;
+      background-color: white;
+    }
+    100% {
+      height: 50%;
+      background-color: white;
+    }
+  }
